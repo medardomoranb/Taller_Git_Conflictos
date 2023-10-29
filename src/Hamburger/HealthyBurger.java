@@ -2,7 +2,7 @@ package Hamburger;
 
 public class HealthyBurger extends BaseBurger {
     HealthyBurger() {
-        super("Health Burger", "Brown rye bread roll", "Chicken", 35);
+        super("Health Burger", "Brown rye bread roll", "Chicken", 35,35);
     }
 
     public void addAdditions() {
@@ -11,7 +11,8 @@ public class HealthyBurger extends BaseBurger {
         System.out.println("Mustard");
         additions.add(6);
         System.out.println("Ketchup");
-
+        System.out.println("Salad Cream");
+        additions.add(7);
     }
 
     @Override

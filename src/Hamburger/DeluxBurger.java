@@ -2,7 +2,7 @@ package Hamburger;
 
 public class DeluxBurger extends BaseBurger{
     DeluxBurger(){
-        super("DeluxBurger","Huge Roll","Chicken",12);
+        super("DeluxBurger","Huge Roll","Chicken",12,14);
     }
     public void addAdditions() {
         System.out.println("Additional additions you added: ");

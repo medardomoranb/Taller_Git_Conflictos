@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Base Burger Details \n" +
                 "*****************");
 
-        BaseBurger baseBurger = new BaseBurger("Chicken burger", "White seasame bread","chicken",43);
+        BaseBurger baseBurger = new BaseBurger("Chicken burger", "White seasame bread","chicken",43,42);
         baseBurger.addAdditions(1,2,3,4);
         baseBurger.additionalPrice();
         System.out.println(baseBurger.calculatePrice());
